@@ -16,6 +16,7 @@ public class GeneradorEmpleados {
 		for (int i=0;i<numeroEmpleados;i++) {
 			//Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
 			String nombre = NOMBRES[(int)(Math.random()*NOMBRES.length)];
+			//if (i==10) nombre="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
 			String apellido1 = APELLIDOS[(int)(Math.random()*APELLIDOS.length)];
 			String apellido2 = APELLIDOS[(int)(Math.random()*APELLIDOS.length)];
 			String puesto = PUESTOS[(int)(Math.random()*PUESTOS.length)];
